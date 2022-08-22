@@ -1,1 +1,0 @@
-async function o({fetch:a}){const t=await(await a("https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-091?Authorization=CWB-58FB851E-33EB-4078-BE5C-9876EB8876C7")).json();if(t.success)return{data:t.records.locations[0].location}}const s=Object.freeze(Object.defineProperty({__proto__:null,load:o},Symbol.toStringTag,{value:"Module"}));export{s as _,o as l};
